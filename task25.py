@@ -7,7 +7,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.wait import WebDriverWait
 
 # Set the path to your ChromeDriver
-serv_obj=Service("C:\z.selenium drivers\chromedriver-win64\chromedriver.exe")
+serv_obj=Service("C:\chromedriver.exe")
 
 # Create a new instance of the Chrome driver
 driver: WebDriver = webdriver.Chrome(service=serv_obj)
